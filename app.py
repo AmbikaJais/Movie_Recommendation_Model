@@ -32,7 +32,7 @@ movies = pd.DataFrame(movies_dict)
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 # Set title and sidebar
-st.title('Movie Recommendetion System - Anik Chowdhury Project')
+st.title('Movie Recommendetion System - AmbikaJais Project')
 st.sidebar.title('User Input')
 
 # Select movie from sidebar
@@ -59,7 +59,7 @@ st.sidebar.markdown('This app recommends similar movies based on the movie you s
 st.sidebar.markdown('---')
 st.sidebar.markdown(
     """
-    *This app is created by Anik Chowdhury as a project.*  
+    *This app is created by AmbikaJais as a project.*  
     *For educational purposes only.*  
     *Source code available on [GitHub].*  
     """
